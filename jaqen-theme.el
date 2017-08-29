@@ -138,6 +138,14 @@ Note this function is designed internal use only."
 
  `(term-color-magenta ((t :foreground ,(jaqen-find :magenta1)
                           :background ,(jaqen-find :magenta2))))
+ `(term-color-white ((t :foreground ,(jaqen-find :shadow)
+                        :background ,(jaqen-find :bg+2))))
+
+ ;; minibuffer
+ `(minibuffer-prompt ((t :foreground ,(jaqen-find :green1))))
+
+ ;; link
+  `(link ((t :foreground ,(jaqen-find :green1))))
 
  ;; grep or etc.
  `(success ((t :foreground ,(jaqen-find :success))))
