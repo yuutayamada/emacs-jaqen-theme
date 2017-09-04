@@ -436,6 +436,17 @@ Note this function is designed internal use only."
  `(wgrep-file-face   ((t :background ,(jaqen :sansa))))
  `(wgrep-delete-face ((t :background ,(jaqen :sansa))))
 
+ ;; markdown
+ `(markdown-inline-code-face ((t :foreground ,(jaqen :bran))))
+ `(markdown-list-face ((t :foreground ,(jaqen :ramsay))))
+ `(markdown-header-face  ((t :inherit org-document-title)))
+ `(markdown-header-face-1 ((t :inherit outline-1)))
+ `(markdown-header-face-2 ((t :inherit outline-2)))
+ `(markdown-header-face-3 ((t :inherit outline-3)))
+ `(markdown-header-face-4 ((t :inherit outline-4)))
+ `(markdown-header-face-5 ((t :inherit outline-5)))
+ `(markdown-header-face-6 ((t :inherit outline-6)))
+
  ;; beacon.el
  `(beacon-fallback-background ((t :background ,(jaqen :sansa))))
 )
